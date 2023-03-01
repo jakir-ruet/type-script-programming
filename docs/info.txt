@@ -3,4 +3,5 @@ tsc --init
 in tsconfig.json file
 "rootDir": "./src"
 "outDir": "./output"
+
 tsc -w      for automatically compiling
