@@ -26,3 +26,12 @@
 // let entity: Array<string | number>;
 // entity = [43, 'Jakir', 665, 'Bangladesh'];
 // console.log(entity)
+
+// Looping
+let entity: Array<string | number> = [43, 'Jakir', 665, 'Bangladesh'];
+for (let index in entity) {
+   console.log(entity[index])
+}
+for (let i = 0; i < entity.length; i++){
+   console.log(entity[i])
+}

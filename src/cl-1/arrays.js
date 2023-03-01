@@ -11,12 +11,20 @@
 // Multi Type Array
 // let entity: (string | number)[] = [43, 'Jakir', 665, 'Bangladesh'];
 // console.log(entity);
-var entity;
-entity = [43, 'Jakir', 665, 'Bangladesh'];
-console.log(entity);
+// let entity: (string | number)[];
+// entity = [43, 'Jakir', 665, 'Bangladesh'];
+// console.log(entity)
 // Or
 // let entity: Array<string | number> = [43, 'Jakir', 665, 'Bangladesh'];
 // console.log(entity);
 // let entity: Array<string | number>;
 // entity = [43, 'Jakir', 665, 'Bangladesh'];
 // console.log(entity)
+// Looping
+var entity = [43, 'Jakir', 665, 'Bangladesh'];
+for (var index in entity) {
+    console.log(entity[index]);
+}
+for (var i = 0; i < entity.length; i++) {
+    console.log(entity[i]);
+}
