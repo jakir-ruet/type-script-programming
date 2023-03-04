@@ -9,4 +9,10 @@
 // aStudent.id; // show here only id
 
 // Base on the generic
-const 
+const stdInfo = <T>(info: T) => {
+   let id = Math.ceil(Math.random() * 10);
+   return{...info, id}
+}
+let user = "Jakir"
+stdInfo(user)
+console.log(user)
