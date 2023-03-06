@@ -10,6 +10,8 @@ var Person = /** @class */ (function () {
     return Person;
 }());
 var jakir = new Person('Jakir', 'jakir@gmail.com', 'RUET');
+console.log(jakir.name);
 console.log(jakir);
 var robin = new Person('Robin', 'robin@gmail.com', 'RUET');
+console.log(robin.email);
 console.log(robin);

@@ -14,6 +14,8 @@ class Person{
    }
 }
 const jakir = new Person('Jakir', 'jakir@gmail.com', 'RUET');
+console.log(jakir.name)
 console.log(jakir);
 const robin = new Person('Robin', 'robin@gmail.com', 'RUET');
+console.log(robin.email)
 console.log(robin)
